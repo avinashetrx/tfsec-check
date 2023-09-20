@@ -32,4 +32,3 @@ jobs:
         uses: aquasecurity/tfsec-action@v1.0.3
         with:
           working_directory: terraform/
-          github_token: ${{ secrets.GH_PSW }}
