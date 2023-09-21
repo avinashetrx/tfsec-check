@@ -18,7 +18,7 @@ terraform {
     }
   }
 
-  # Requires S3 bucket & Dynamo DB to be configured, please see README.md # commenting to trigger PR #3
+  # Requires S3 bucket & Dynamo DB to be configured, please see README.md # commenting to trigger PR #6
   backend "s3" {
     bucket         = "data-collection-service-tfstate-dev"
     encrypt        = true
